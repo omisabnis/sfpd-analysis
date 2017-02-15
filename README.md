@@ -1,6 +1,8 @@
 # sfpd-analysis
 Analyzing SFPD dataset using SparkSQL (Python)
 
+Download dataset from https://data.sfgov.org/Public-Safety/SFPD-Incidents-from-1-January-2003/tmnf-yvry in CSV format.
+
 Problem Statement
 
 Analyzing the SFPD incidents dataset using Apache Spark based on the following questions.
