@@ -14,9 +14,9 @@ Analyzing the SFPD incidents dataset using Apache Spark based on the following q
 3) How many incidents were recorded in the month of January 2017(date-wise count)?
    Day 1  Count 345
 
-4) Which day of the week records maximum calls?
+4) Which day of the week records maximum incidents?
    DayOfWeek Monday  Count 34567
 
-5) How many calls were recorded from noon till midnight(hourly count)?
+5) How many incidents were recorded from noon till midnight(hourly count)?
    Hour 14  Count 23456
    
