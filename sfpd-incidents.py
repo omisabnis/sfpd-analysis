@@ -24,7 +24,8 @@ from_pattern1 = 'MM/dd/yyyy hh:mm'
 
 #converting the datatype of the new column to timestamp
 dfTS = concatdf.withColumn('DateTS', unix_timestamp(concatdf['DateTime'], from_pattern1).cast('timestamp')).drop('DateTime')
-dfTS.cache()
+dfTS.cache() #lazily cached
+dfTS.count() #performing actions to cache the RDD dfTS
 dfTS.columns
 dfTs.createOrReplaceTempView('sfpd')
 spark.catalog.cacheTable('sfpd')
